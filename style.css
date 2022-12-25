@@ -1,0 +1,35 @@
+/* RESET STYLES */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* GENERAL STYLES */
+
+:root {
+    --ff-sd: "Big Shoulders Display", cursive;
+    --ff-ld: "Lexend Deca", sans-serif;
+
+    --color-y: #e28625;
+    --color-b: #006971;
+    --color-g: #004140;
+    --color-w: #fff;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
