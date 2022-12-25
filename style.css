@@ -125,3 +125,38 @@ body {
 .card__icon {
     margin-bottom: 3.5rem;
 }
+
+/* MEDIA QUERIES */
+
+/* 960/16=60 */
+@media only screen and (max-width: 60em) {
+    html {
+        font-size: 8px;
+    }
+}
+
+/* 768/16=48 */
+@media only screen and (max-width: 48em) {
+    html {
+        font-size: 6px;
+    }
+}
+
+/* 560/16=35 */
+@media only screen and (max-width: 35em) {
+    html {
+        font-size: 10px;
+    }
+
+    .cards {
+        grid-template-columns: revert;
+        width: revert;
+        margin: 2.4rem;
+    }
+
+    .paragraph {
+        margin-bottom: 2.5rem;
+    }
+}
+
+/* END */
